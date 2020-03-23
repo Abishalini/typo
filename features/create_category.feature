@@ -16,8 +16,3 @@ Feature: Create Categories
     Then I press "Save"
     Then I should see "Category was successfully saved"
 
-  Scenario: Create blog page not shown when blog created
-    Given the blog is set up
-    When I am on the home page
-    Then I should not see "My Shiny Weblog!"
-    And I should see "Teh Blag"
